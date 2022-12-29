@@ -1,7 +1,64 @@
-.App {
+.App{
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+.title{
+  text-align: center;
+  margin: 4rem;
+}
+.container{
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  text-align: justify;
+}
+.name{
+  margin: 2;
+  display: flex;
+  border: 0.5rem;
+  border-radius: 12px;
+  outline: 0.5rem solid khaki;
+ width:250px; 
+}
+.last{
+  display: flex;
+  align-items: center;
+  border: 0.5rem;
+  border-radius: 12px;
+  outline: 0.5rem solid khaki;
+  margin-left: 5rem;
+  width: 250px;
+}
+.input{
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+.gender{
+  display: flex;
+  margin: 2rem;
+  border: 0.5rem;
+  border-radius: 12px;
+  outline: 0.5rem solid khaki;
+  width:250px;
+}
+.age{
+  margin: 2rem;
+  display: flex;
+  border: 0.5rem;
+  border-radius: 12px ;
+  outline: 0.5rem solid khaki;
+  width: 250px;
 
+}
+.profession{
+  display: flex;
+  text-align: left;
+  border: 0.5rem;
+  border-radius: 12px;
+  outline: 0.5rem solid khaki;
+  width:250px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +93,4 @@
     transform: rotate(360deg);
   }
 }
+
